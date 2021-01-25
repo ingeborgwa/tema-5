@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import Cosmic from 'cosmicjs';
 
+
+
+
 function HomeContainer (){
     const [pageData, setPageData] = useState(null);
 
@@ -13,7 +16,7 @@ function HomeContainer (){
         });
 
         const params = {
-            slug:'home',
+            slug:'hjem',
             props:'slug,title,content'
         };
 
